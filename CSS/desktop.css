@@ -1,6 +1,20 @@
 @media (min-width: 1201px) {
-
+h1 {
+  font-size: 110px;
+}
+.btn {
+  font-family: work-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 20px;
+  padding: 16px, 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
   .navbar-nav {
     transform: translateX(-110px)
   }
+.row {
+  justify-content: end;
+}
 }

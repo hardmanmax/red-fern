@@ -1,13 +1,29 @@
-@media (max-width: 1200px) {
-
-
-  .navbar-toggler {
-    border: solid 1px red;
-    right: 300px;
+@media (max-width: 868px) {
+  .filters-column, .sort-button, .filters-banner-list{
+    display: none;
   }
 
-  .navbar-brand {
-    left: 12px;
-    top: 10px;
+  .nav-item {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 575px;
   }
+
+  .nav-item button {
+    width: 100%;
+
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  h3, span {
+    font-size: 24px;
+  }
+
+  
+
+
 }

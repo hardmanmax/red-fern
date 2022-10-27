@@ -1,0 +1,21 @@
+@media (min-width: 868px) and (max-width: 1200px) {
+
+  .nav-item {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 575px;
+
+  }
+
+  .nav-item button {
+    width: 100%;
+  }
+  .row {
+    justify-content: end;
+  }
+
+  .navbar-brand {
+    left: 12px;
+    top: 10px;
+  }
+}
